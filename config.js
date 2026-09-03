@@ -9,8 +9,8 @@
 //  nicht scharf geschaltet ist.
 // ────────────────────────────────────────────────────────────────
 
-const SUPABASE_URL = "DEINE_SUPABASE_URL";      // z.B. https://abcxyz.supabase.co
-const SUPABASE_ANON_KEY = "DEIN_ANON_KEY";      // der öffentliche "anon"/"publishable" Key
+const SUPABASE_URL = "https://qjwethabtotftuprkrns.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_Qkyb8hWKOFPS5vVgS_dgVQ_4tfMehMi";
 
 // Nicht ändern:
 const SUPABASE_READY =
@@ -18,3 +18,4 @@ const SUPABASE_READY =
   SUPABASE_ANON_KEY &&
   !SUPABASE_URL.includes("DEINE_") &&
   !SUPABASE_ANON_KEY.includes("DEIN_");
+
